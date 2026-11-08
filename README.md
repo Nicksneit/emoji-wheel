@@ -43,6 +43,10 @@ Emoji Wheel does not collect, transmit or sell any data. It does not read page c
 - How emoji look depends on your operating system; the newest ones may appear as a box on older systems.
 - On macOS and Linux the "right button + left click" option can show the system context menu; use the key option there.
 
+## Privacy Policy
+
+[Privacy Policy](privacy-policy.html)
+
 ---
 
 ## Emoji Wheel (Русский)
