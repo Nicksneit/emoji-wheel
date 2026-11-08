@@ -4,6 +4,18 @@ Radial emoji picker: hold a key, press the right mouse button, and drop any emoj
 
 Emoji Wheel puts every emoji under your cursor. Hold a key, press the right mouse button, and a radial menu appears right where you are. Move toward a category, then toward an emoji, and release — it is inserted into the text field you are typing in.
 
+## Screenshots
+
+![Emoji Wheel radial menu](screenshots/promo-marquee-1400x560.png)
+
+![Expanded category](screenshots/screenshot-1-wheel.png)
+
+![Expanded category](screenshots/screenshot-2-more-window.png)
+
+![Expanded category](screenshots/screenshot-3-recent.png)
+
+![Settings](screenshots/screenshot-4-settings.png)
+
 ## How it works
 
 - Hold **Alt** (or **Shift** / **Ctrl**) and press the right mouse button, or hold the right button and click the left one.
