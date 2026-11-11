@@ -52,7 +52,7 @@ Emoji Wheel does not collect, transmit or sell any data. It does not read page c
 
 ## Privacy Policy
 
-[Privacy Policy](privacy-policy.html)
+[Privacy Policy](https://nicksneit.github.io/emoji-wheel/privacy-policy.html)
 
 ---
 
