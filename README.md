@@ -1,5 +1,11 @@
 # Emoji Wheel
 
+**English** · [Русский](#русский) · [Українська](#українська)
+
+---
+
+## English
+
 Radial emoji picker: hold a key, press the right mouse button, and drop any emoji into the field you're typing in.
 
 Emoji Wheel puts every emoji under your cursor. Hold a key, press the right mouse button, and a radial menu appears right where you are. Move toward a category, then toward an emoji, and release — it is inserted into the text field you are typing in.
@@ -50,7 +56,7 @@ Emoji Wheel does not collect, transmit or sell any data. It does not read page c
 
 ---
 
-## Emoji Wheel (Русский)
+## Русский
 
 **Краткое описание**
 
@@ -90,7 +96,7 @@ Emoji Wheel не собирает, не передаёт и не продаёт 
 
 ---
 
-## Emoji Wheel (Українська)
+## Українська
 
 **Короткий опис**
 
