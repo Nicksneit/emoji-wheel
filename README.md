@@ -6,130 +6,140 @@
 
 ## English
 
-Radial emoji picker: hold a key, press the right mouse button, and drop any emoji into the field you're typing in.
+Every emoji under your cursor. Emoji Wheel is a Chrome extension that opens a radial menu right where you click: move toward a category, then toward an emoji, and click to insert it into the text field you are typing in.
 
-Emoji Wheel puts every emoji under your cursor. Hold a key, press the right mouse button, and a radial menu appears right where you are. Move toward a category, then toward an emoji, and release — it is inserted into the text field you are typing in.
-
-## Screenshots
-
-![Emoji Wheel radial menu](screenshots/promo-marquee-1400x560.png)
-
-![Expanded category](screenshots/screenshot-1-wheel.png)
-
-![Expanded category](screenshots/screenshot-2-more-window.png)
-
-![Expanded category](screenshots/screenshot-3-recent.png)
-
+![The wheel and the emoji panel](screenshots/screenshot-1-wheel.png)
 ![Settings](screenshots/screenshot-4-settings.png)
 
-## How it works
 
-- Hold **Alt** (or Shift / Ctrl) and press the right mouse button, or hold the right button and click the left one.
-- Move toward one of 16 sectors: your favorites at the top and 15 themed categories, from happy faces, feelings, gestures and people to animals, food, sports, travel and objects.
-- Move on to an emoji in the 5×5 panel and release. Release inside the ring to insert the category's first emoji instantly.
-- Rest the cursor on the thin outer ring to open the rest of the category, up to 200 more emoji. The outer ring above Favorites shows your 25 most recently used emoji.
-- Outside a text field the emoji is copied to the clipboard instead.
+### Features
 
-## Features
+- **16 sectors:** Favorites at the top plus 15 themed categories (happy faces, feelings, creatures, gestures, people & clothing, hearts & love, signs, animals, plants & weather, food, drinks, sports, party & music, travel & places, objects & work)
+- **5×5 panel** for every category and a thin **outer ring** that opens up to 200 more emoji, on hover or on click (your choice)
+- **Recent emoji:** the outer ring above Favorites shows your last 25
+- **Left click inserts, right click copies.** Hold Shift or use the middle button to insert several emoji in a row
+- **Open it your way:** presets for Windows, Linux/macOS and laptops, or your own combination of keys and mouse buttons. Choose between "click to choose" and "release to choose"
+- Fully editable categories, adjustable wheel size, 14 interface languages, settings export and import
+- No data collection, no analytics, no remote code
 
-- A favorites sector that you fill yourself
-- A large built-in emoji library, including recent Unicode releases
-- Fully editable categories: names, icons and emoji lists
-- Adjustable wheel size
-- 14 interface languages: English, Русский, Українська, Español, Français, Deutsch, Português, Italiano, Türkçe, 中文, 日本語, 한국어, हिन्दी, العربية
-- Dark settings page, export and import of settings
-- Works in text fields, text areas and rich editors
+### Opening combinations
 
-## Privacy
+| Combination | Best for |
+| --- | --- |
+| Right + left button | Windows with a mouse |
+| Shift + right button | Linux and macOS |
+| Alt + left button | Laptops and touchpads |
+| Custom | Any key or mouse button pairing |
 
-Emoji Wheel does not collect, transmit or sell any data. It does not read page content and contains no analytics or ads. Settings are stored in Chrome (and synced through your Google account if Chrome sync is on); recently used emoji stay on your device.
+### Install
 
-## Good to know
+- **Chrome Web Store:** [Emoji Wheel](https://chromewebstore.google.com/detail/jeolamolbcgmnkogkmoagkjojfjfmnfe?utm_source=item-share-cb)
+- **From source:** download or clone this repository, open `chrome://extensions`, turn on *Developer mode*, click *Load unpacked* and select the folder that contains `manifest.json`.
+
+### Good to know
 
 - Chrome does not allow extensions on `chrome://` pages, the Chrome Web Store and the built-in PDF viewer, so the menu cannot open there.
-- How emoji look depends on your operating system; the newest ones may appear as a box on older systems.
-- On macOS and Linux the "right button + left click" option can show the system context menu; use the key option there.
+- How emoji look depends on your operating system. The newest ones may appear as a box on older systems.
+- On macOS and Linux, combinations that start with the right button show the system context menu at once. Use Shift + right button there.
 
-## Privacy Policy
+### Privacy
 
-[Privacy Policy](https://nicksneit.github.io/emoji-wheel/privacy-policy.html)
+Emoji Wheel does not collect, transmit or sell any data and does not read page content. Settings are stored in Chrome (and synced through your Google account if Chrome sync is on); recently used emoji stay on your device. See the [privacy policy](https://nicksneit.github.io/emoji-wheel/privacy-policy.html).
+
+### Development
+
+Plain JavaScript (Manifest V3), no build step. `content.js` is the menu, `options.html` and `options.js` the settings page, `defaults.js` the emoji lists and the settings model, `i18n.js` the translations.
 
 ---
 
 ## Русский
 
-**Краткое описание**
+Все эмодзи под курсором. Emoji Wheel — расширение для Chrome, которое открывает круговое меню прямо там, где вы щёлкнули: ведите курсор к категории, затем к эмодзи и щёлкните, чтобы вставить его в поле, в котором вы печатаете.
 
-Круговое меню эмодзи: зажмите клавишу, нажмите правую кнопку мыши и вставьте любой эмодзи в поле, где печатаете.
+![Колесо и панель эмодзи](screenshots/screenshot-1-wheel.png)
+![Settings](screenshots/screenshot-4-settings.png)
 
-**Описание**
+### Возможности
 
-Emoji Wheel держит все эмодзи под рукой. Зажмите клавишу, нажмите правую кнопку мыши, и прямо под курсором появится круговое меню. Ведите курсор к категории, затем к эмодзи и отпустите кнопку: эмодзи вставится в поле, в котором вы печатаете.
+- **16 секторов:** сверху избранное и 15 тематических категорий (улыбки, эмоции, персонажи, жесты, люди и одежда, сердца и любовь, знаки, животные, растения и погода, еда, напитки, спорт, праздник и музыка, транспорт и места, предметы и работа)
+- **Панель 5×5** для каждой категории и тонкое **внешнее кольцо**, которое открывает до 200 дополнительных эмодзи при наведении или по щелчку (на ваш выбор)
+- **Недавние эмодзи:** внешнее кольцо над избранным показывает последние 25
+- **Левый клик вставляет, правый копирует.** Удерживайте Shift или используйте среднюю кнопку, чтобы вставить несколько эмодзи подряд
+- **Откройте так, как удобно:** готовые комбинации для Windows, Linux/macOS и ноутбуков или своя комбинация клавиш и кнопок мыши. Выбор «кликом» или «отпусканием»
+- Полностью редактируемые категории, регулируемый размер колеса, 14 языков интерфейса, экспорт и импорт настроек
+- Никакого сбора данных, аналитики и удалённого кода
 
-#### Как это работает
+### Комбинации вызова
 
-- Зажмите **Alt** (или Shift / Ctrl) и нажмите правую кнопку мыши. Либо держите правую кнопку и щёлкните левой.
-- Ведите курсор к одному из 16 секторов: сверху ваше избранное и 15 тематических категорий, от улыбок, эмоций, жестов и людей до животных, еды, спорта, транспорта и предметов.
-- Затем двигайтесь к эмодзи в панели 5×5 и отпускайте кнопку. Если отпустить внутри кольца, сразу вставится первое эмодзи категории.
-- Задержите курсор на тонком внешнем кольце, чтобы открыть остальные эмодзи категории, до 200 штук. Внешнее кольцо над избранным показывает 25 последних использованных эмодзи.
-- Вне поля ввода эмодзи копируется в буфер обмена.
+| Комбинация | Лучше для |
+| --- | --- |
+| Правая + левая кнопка | Windows с мышью |
+| Shift + правая кнопка | Linux и macOS |
+| Alt + левая кнопка | Ноутбуки и тачпады |
+| Своя | Любая пара клавиш и кнопок мыши |
 
-#### Возможности
+### Установка
 
-- Сектор избранного, который вы наполняете сами
-- Большая встроенная библиотека эмодзи, включая недавние версии Unicode
-- Категории можно менять полностью: названия, значки, списки эмодзи
-- Регулируемый размер колеса
-- 14 языков интерфейса: English, Русский, Українська, Español, Français, Deutsch, Português, Italiano, Türkçe, 中文, 日本語, 한국어, हिन्दी, العربية
-- Тёмная страница настроек, экспорт и импорт настроек
-- Работает в полях ввода, текстовых областях и визуальных редакторах
+- **Chrome Web Store:** [Emoji Wheel](https://chromewebstore.google.com/detail/jeolamolbcgmnkogkmoagkjojfjfmnfe?utm_source=item-share-cb)
+- **Из исходников:** скачайте или клонируйте репозиторий, откройте `chrome://extensions`, включите *Режим разработчика*, нажмите *Загрузить распакованное расширение* и выберите папку с файлом `manifest.json`.
 
-#### Конфиденциальность
-
-Emoji Wheel не собирает, не передаёт и не продаёт никакие данные. Расширение не читает содержимое страниц, в нём нет аналитики и рекламы. Настройки хранятся в Chrome (и синхронизируются через аккаунт Google, если включена синхронизация), а недавние эмодзи остаются только на вашем устройстве.
-
-#### Стоит знать
+### Стоит знать
 
 - Chrome не разрешает расширениям работать на страницах `chrome://`, в Chrome Web Store и во встроенном просмотрщике PDF, поэтому там меню не откроется.
-- Внешний вид эмодзи зависит от вашей операционной системы; самые новые на старых системах могут показываться квадратиком.
-- На macOS и Linux вариант «правая кнопка + левый щелчок» может показывать системное контекстное меню, там лучше использовать вариант с клавишей.
+- Внешний вид эмодзи зависит от вашей операционной системы. Самые новые на старых системах могут показываться квадратиком.
+- На macOS и Linux комбинации, начинающиеся с правой кнопки, сразу показывают системное контекстное меню. Там лучше использовать Shift + правая кнопка.
+
+### Конфиденциальность
+
+Emoji Wheel не собирает, не передаёт и не продаёт никакие данные и не читает содержимое страниц. Настройки хранятся в Chrome (и синхронизируются через аккаунт Google, если включена синхронизация), а недавние эмодзи остаются только на вашем устройстве. Подробнее в [политике конфиденциальности](https://nicksneit.github.io/emoji-wheel/privacy-policy.html).
+
+### Разработка
+
+Чистый JavaScript (Manifest V3), без сборки. `content.js` — меню, `options.html` и `options.js` — страница настроек, `defaults.js` — списки эмодзи и модель настроек, `i18n.js` — переводы.
 
 ---
 
 ## Українська
 
-**Короткий опис**
+Усі емодзі під курсором. Emoji Wheel — розширення для Chrome, яке відкриває кругове меню просто там, де ви клацнули: ведіть курсор до категорії, потім до емодзі й клацніть, щоб вставити його в поле, у якому ви друкуєте.
 
-Кругове меню емодзі: затисніть клавішу, натисніть праву кнопку миші та вставте будь-який емодзі в поле, де друкуєте.
+![Колесо та панель емодзі](screenshots/screenshot-1-wheel.png)
+![Settings](screenshots/screenshot-4-settings.png)
 
-**Опис**
+### Можливості
 
-Emoji Wheel тримає всі емодзі під рукою. Затисніть клавішу, натисніть праву кнопку миші, і просто під курсором з'явиться кругове меню. Ведіть курсор до категорії, потім до емодзі та відпустіть кнопку: емодзі вставиться в поле, у якому ви друкуєте.
+- **16 секторів:** угорі обране та 15 тематичних категорій (усмішки, емоції, персонажі, жести, люди й одяг, серця та кохання, знаки, тварини, рослини й погода, їжа, напої, спорт, свято та музика, транспорт і місця, предмети та робота)
+- **Панель 5×5** для кожної категорії та тонке **зовнішнє кільце**, що відкриває до 200 додаткових емодзі при наведенні або за кліком (на ваш вибір)
+- **Нещодавні емодзі:** зовнішнє кільце над обраним показує останні 25
+- **Лівий клік вставляє, правий копіює.** Утримуйте Shift або використовуйте середню кнопку, щоб вставити кілька емодзі поспіль
+- **Відкривайте так, як зручно:** готові комбінації для Windows, Linux/macOS та ноутбуків або власна комбінація клавіш і кнопок миші. Вибір «кліком» або «відпусканням»
+- Повністю редаговані категорії, регульований розмір колеса, 14 мов інтерфейсу, експорт та імпорт налаштувань
+- Жодного збору даних, аналітики та віддаленого коду
 
-#### Як це працює
+### Комбінації виклику
 
-- Затисніть **Alt** (або Shift / Ctrl) і натисніть праву кнопку миші. Або тримайте праву кнопку та клацніть лівою.
-- Ведіть курсор до одного з 16 секторів: угорі ваше обране та 15 тематичних категорій, від усмішок, емоцій, жестів і людей до тварин, їжі, спорту, транспорту та предметів.
-- Далі рухайтеся до емодзі на панелі 5×5 і відпускайте кнопку. Якщо відпустити всередині кільця, одразу вставиться перше емодзі категорії.
-- Затримайте курсор на тонкому зовнішньому кільці, щоб відкрити решту емодзі категорії, до 200 штук. Зовнішнє кільце над обраним показує 25 останніх використаних емодзі.
-- Поза полем введення емодзі копіюється в буфер обміну.
+| Комбінація | Краще для |
+| --- | --- |
+| Права + ліва кнопка | Windows із мишею |
+| Shift + права кнопка | Linux і macOS |
+| Alt + ліва кнопка | Ноутбуки й тачпади |
+| Власна | Будь-яка пара клавіш і кнопок миші |
 
-#### Можливості
+### Встановлення
 
-- Сектор обраного, який ви наповнюєте самі
-- Велика вбудована бібліотека емодзі, зокрема нещодавні версії Unicode
-- Категорії можна змінювати повністю: назви, значки, списки емодзі
-- Регульований розмір колеса
-- 14 мов інтерфейсу: English, Русский, Українська, Español, Français, Deutsch, Português, Italiano, Türkçe, 中文, 日本語, 한국어, हिन्दी, العربية
-- Темна сторінка налаштувань, експорт та імпорт налаштувань
-- Працює в полях введення, текстових областях і візуальних редакторах
+- **Chrome Web Store:** [Emoji Wheel](https://chromewebstore.google.com/detail/jeolamolbcgmnkogkmoagkjojfjfmnfe?utm_source=item-share-cb)
+- **Із вихідного коду:** завантажте або клонуйте репозиторій, відкрийте `chrome://extensions`, увімкніть *Режим розробника*, натисніть *Завантажити розпаковане розширення* та виберіть теку з файлом `manifest.json`.
 
-#### Конфіденційність
-
-Emoji Wheel не збирає, не передає і не продає жодних даних. Розширення не читає вміст сторінок, у ньому немає аналітики та реклами. Налаштування зберігаються в Chrome (і синхронізуються через обліковий запис Google, якщо ввімкнена синхронізація), а нещодавні емодзі залишаються лише на вашому пристрої.
-
-#### Варто знати
+### Варто знати
 
 - Chrome не дозволяє розширенням працювати на сторінках `chrome://`, у Chrome Web Store та у вбудованому переглядачі PDF, тому там меню не відкриється.
-- Вигляд емодзі залежить від вашої операційної системи; найновіші на старих системах можуть показуватися квадратиком.
-- На macOS і Linux варіант «права кнопка + лівий клік» може показувати системне контекстне меню, там краще використовувати варіант із клавішею.
+- Вигляд емодзі залежить від вашої операційної системи. Найновіші на старих системах можуть показуватися квадратиком.
+- На macOS і Linux комбінації, що починаються з правої кнопки, одразу показують системне контекстне меню. Там краще використовувати Shift + права кнопка.
+
+### Конфіденційність
+
+Emoji Wheel не збирає, не передає і не продає жодних даних та не читає вміст сторінок. Налаштування зберігаються в Chrome (і синхронізуються через обліковий запис Google, якщо ввімкнена синхронізація), а нещодавні емодзі залишаються лише на вашому пристрої. Докладніше в [політиці конфіденційності](https://nicksneit.github.io/emoji-wheel/privacy-policy.html).
+
+### Розробка
+
+Чистий JavaScript (Manifest V3), без збирання. `content.js` — меню, `options.html` та `options.js` — сторінка налаштувань, `defaults.js` — списки емодзі та модель налаштувань, `i18n.js` — переклади.
