@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Emoji Wheel"
+  },
+  "extDescription": {
+    "message": "Radial emoji picker: open it with your mouse, pick any emoji, and drop it into the field you're typing in."
+  },
+  "actionTitle": {
+    "message": "Emoji Wheel settings"
+  }
+}

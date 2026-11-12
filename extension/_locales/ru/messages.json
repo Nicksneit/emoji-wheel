@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Emoji Wheel"
+  },
+  "extDescription": {
+    "message": "Круговое меню эмодзи: откройте мышью, выберите любой эмодзи и вставьте его в поле, где печатаете."
+  },
+  "actionTitle": {
+    "message": "Настройки Emoji Wheel"
+  }
+}
