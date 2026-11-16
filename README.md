@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="CHROME_WEB_STORE_URL"><img src="https://img.shields.io/badge/Chrome%20Web%20Store-Install-4285F4?logo=googlechrome&logoColor=white&style=for-the-badge" alt="Install from Chrome Web Store"></a>
+  <a href="https://chromewebstore.google.com/detail/jeolamolbcgmnkogkmoagkjojfjfmnfe?utm_source=item-share-cb"><img src="https://img.shields.io/badge/Chrome%20Web%20Store-Install-4285F4?logo=googlechrome&logoColor=white&style=for-the-badge" alt="Install from Chrome Web Store"></a>
 </p>
 
 <p align="center">
