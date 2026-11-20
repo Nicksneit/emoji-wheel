@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Emoji Wheel"
+  },
+  "extDescription": {
+    "message": "Кругове меню емодзі: відкрийте мишею, оберіть будь-який емодзі та вставте його в поле, де друкуєте."
+  },
+  "actionTitle": {
+    "message": "Налаштування Emoji Wheel"
+  }
+}
