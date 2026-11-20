@@ -25,11 +25,12 @@ Every emoji under your cursor. Emoji Wheel is a Chrome extension that opens a ra
 ## Features
 
 - **16 sectors:** Favorites at the top plus 15 themed categories (happy faces, feelings, creatures, gestures, people & clothing, hearts & love, signs, animals, plants & weather, food, drinks, sports, party & music, travel & places, objects & work)
+- **The window opens right next to the category** you point at and never covers its way back or its "More" button. A chosen category stays open while you move, even across other categories, so you never switch by accident
 - **5×5 panel** for every category and a thin **outer ring** that opens up to 200 more emoji, on hover or on click (your choice)
 - **Recent emoji:** the outer ring above Favorites shows your last 25
 - **Left click inserts, right click copies.** Hold Shift or use the middle button to insert several emoji in a row
 - **Open it your way:** presets for Windows, Linux/macOS and laptops, or your own combination of keys and mouse buttons. Choose between "click to choose" and "release to choose"
-- Fully editable categories (names, icons, emoji lists), adjustable wheel size, dark settings page
+- Fully editable categories (names, icons, emoji lists), adjustable wheel size, soft rounded design, a plain arrow cursor while you choose, dark settings page
 - 14 interface languages, settings export and import
 - Recent Unicode emoji included
 - No data collection, no analytics, no remote code
@@ -38,10 +39,12 @@ Every emoji under your cursor. Emoji Wheel is a Chrome extension that opens a ra
 
 ![Recently used emoji above Favorites](screenshots/screenshot-3-recent.png)
 
+![At the screen edge the window stays next to the category](screenshots/screenshot-4-screen-edge.png)
+
 ## How to use
 
 1. Open the wheel with your combination (by default **right + left button** on Windows, **Shift + right button** on Linux and macOS).
-2. Move toward a sector. Its 5×5 panel opens.
+2. Point at a category icon. Its 5×5 window opens right next to it. The category stays chosen while you move; to pick another one, move back to the small arrows in the inner ring.
 3. Click an emoji: left click inserts it, right click copies it. Hold **Shift** or use the **middle button** to insert several emoji in a row.
 4. Click the center, click outside the menu or press **Esc** to close it.
 
@@ -62,7 +65,7 @@ You can also switch to **Release to choose** mode: hold a button, move, release.
 
 Click the extension icon to open the settings page.
 
-![Settings page](screenshots/screenshot-4-settings.png)
+![Settings page](screenshots/screenshot-5-settings.png)
 
 ## Install
 
@@ -96,5 +99,7 @@ Plain JavaScript (Manifest V3), no build step.
 | `_locales/` | Store name and description |
 
 ## License
+
+Add a `LICENSE` file to choose the terms of use.
 
 Add a `LICENSE` file to choose the terms of use.
