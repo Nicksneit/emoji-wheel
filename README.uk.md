@@ -3,12 +3,14 @@
 </p>
 
 <p align="center">
+  <a href="https://chromewebstore.google.com/detail/jeolamolbcgmnkogkmoagkjojfjfmnfe?utm_source=item-share-cb"><img src="https://img.shields.io/badge/Chrome%20Web%20Store-Install-4285F4?logo=googlechrome&logoColor=white&style=for-the-badge" alt="Install from Chrome Web Store"></a>
+</p>
+
+<p align="center">
   <a href="README.md">English</a> · <a href="README.ru.md">Русский</a> · <b>Українська</b>
 </p>
 
 <p align="center">
-  <a href="https://chromewebstore.google.com/"><b>Встановити з Chrome Web Store</b></a>
-  &nbsp;·&nbsp;
   <a href="docs/privacy-policy.html">Політика конфіденційності</a>
   &nbsp;·&nbsp;
   <a href="CHANGELOG.md">Список змін</a>
